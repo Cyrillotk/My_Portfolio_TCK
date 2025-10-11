@@ -30,9 +30,6 @@ const Footer = () => {
             </a>
           </div>
 
-          <p className="text-sm text-muted-foreground">
-            © {new Date().getFullYear()} All rights reserved
-          </p>
         </div>
       </div>
     </footer>
