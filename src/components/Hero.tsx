@@ -14,6 +14,7 @@ const Hero = () => {
 
           <h1 className="text-5xl md:text-7xl font-bold tracking-tight">
             <span className="gradient-text">TATA CYRIL KUNTA</span>
+            <span className="sr-only"> — Frontend Developer & AI Enthusiast</span>
           </h1>
 
           <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto">
@@ -37,6 +38,7 @@ const Hero = () => {
           <div className="flex gap-6 justify-center pt-8">
             <a
               href="https://github.com/Cyrillotk"
+              aria-label="GitHub profile"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-foreground transition-colors"
@@ -45,6 +47,7 @@ const Hero = () => {
             </a>
             <a
               href="https://www.linkedin.com/in/tata-cyril-kunta-a1396132a"
+              aria-label="LinkedIn profile"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-foreground transition-colors"
@@ -53,6 +56,7 @@ const Hero = () => {
             </a>
             <a
               href="#contact"
+              aria-label="Go to contact section"
               className="text-muted-foreground hover:text-foreground transition-colors"
             >
               <Mail className="w-6 h-6" />
