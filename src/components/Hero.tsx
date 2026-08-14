@@ -14,7 +14,7 @@ const Hero = () => {
           backgroundPosition: 'center',
         }}
       >
-        <div className="absolute inset-0 bg-background/80" />
+        <div className="absolute inset-0 bg-background/95" />
       </div>
 
       {/* Floating Elements */}
