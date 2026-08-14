@@ -39,9 +39,9 @@ All colors MUST be HSL.
     --radius: 0.75rem;
 
     /* Custom gradient colors */
-    --gradient-start: 0 0% 5%;
-    --gradient-mid: 0 72% 35%;
-    --gradient-end: 0 72% 51%;
+    --gradient-start: 0 72% 45%;
+    --gradient-mid: 0 72% 51%;
+    --gradient-end: 0 72% 58%;
 
     /* Glass effect */
     --glass-bg: 0 0% 8%;
