@@ -1,28 +1,9 @@
 import { Button } from "@/components/ui/button";
 import { Github, Linkedin, Mail, Code2 } from "lucide-react";
-import heroBg from "@/assets/hero-bg.jpg";
 
 const Hero = () => {
   return (
-    <section className="min-h-screen relative flex items-center justify-center overflow-hidden">
-      {/* Background Image with Overlay */}
-      <div 
-        className="absolute inset-0 z-0"
-        style={{
-          backgroundImage: `url(${heroBg})`,
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-        }}
-      >
-        <div className="absolute inset-0 bg-background/95" />
-      </div>
-
-      {/* Floating Elements */}
-      <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        <div className="absolute top-1/4 left-1/4 w-64 h-64 bg-primary/20 rounded-full blur-3xl animate-float" />
-        <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-accent/20 rounded-full blur-3xl animate-float" style={{ animationDelay: '2s' }} />
-      </div>
-
+    <section className="min-h-screen relative flex items-center justify-center overflow-hidden bg-background">
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4 text-center">
         <div className="space-y-6 animate-in fade-in slide-in-from-bottom-4 duration-1000">
