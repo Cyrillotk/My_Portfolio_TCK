@@ -12,8 +12,8 @@ const Hero = () => {
             <span className="text-sm text-muted-foreground">Available for Work</span>
           </div>
 
-          <h1 className="text-5xl md:text-7xl font-bold tracking-tight">
-            <span className="gradient-text">TATA CYRIL KUNTA</span>
+          <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-white">
+            TATA CYRIL KUNTA
             <span className="sr-only"> — Frontend Developer & AI Enthusiast</span>
           </h1>
 
