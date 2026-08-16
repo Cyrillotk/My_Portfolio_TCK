@@ -8,7 +8,7 @@ const Contact = () => {
       icon: Mail,
       label: "Email",
       value: "Get in touch",
-      href: "mailto:tatacyrilkunta@example.com",
+      href: "mailto:tatacyril16@gmail.com",
       primary: true
     },
     {
@@ -64,7 +64,7 @@ const Contact = () => {
                   I'll try my best to get back to you!
                 </p>
                 <Button variant="hero" size="lg" asChild>
-                  <a href="mailto:tatacyrilkunta@example.com">
+                  <a href="mailto:tatacyril16@gmail.com">
                     <MessageSquare className="w-4 h-4 mr-2" />
                     Send Message
                   </a>
